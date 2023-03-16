@@ -8,27 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DA9EAD9B29C3937800545E7B /* MqttnioFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = DA9EAD9A29C3937800545E7B /* MqttnioFramework.docc */; };
-		DA9EADA129C3937800545E7B /* MqttnioFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9EAD9629C3937800545E7B /* MqttnioFramework.framework */; };
-		DA9EADA629C3937800545E7B /* MqttnioFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EADA529C3937800545E7B /* MqttnioFrameworkTests.swift */; };
 		DA9EADA729C3937800545E7B /* MqttnioFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EAD9929C3937800545E7B /* MqttnioFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DA9EADA229C3937800545E7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DA9EAD8D29C3937800545E7B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA9EAD9529C3937800545E7B;
-			remoteInfo = MqttnioFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DA9EAD9629C3937800545E7B /* MqttnioFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttnioFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9EAD9929C3937800545E7B /* MqttnioFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MqttnioFramework.h; sourceTree = "<group>"; };
 		DA9EAD9A29C3937800545E7B /* MqttnioFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MqttnioFramework.docc; sourceTree = "<group>"; };
-		DA9EADA029C3937800545E7B /* MqttnioFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MqttnioFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA9EADA529C3937800545E7B /* MqttnioFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MqttnioFrameworkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,14 +25,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA9EAD9D29C3937800545E7B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA9EADA129C3937800545E7B /* MqttnioFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,7 +32,6 @@
 			isa = PBXGroup;
 			children = (
 				DA9EAD9829C3937800545E7B /* MqttnioFramework */,
-				DA9EADA429C3937800545E7B /* MqttnioFrameworkTests */,
 				DA9EAD9729C3937800545E7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				DA9EAD9629C3937800545E7B /* MqttnioFramework.framework */,
-				DA9EADA029C3937800545E7B /* MqttnioFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,14 +51,6 @@
 				DA9EAD9A29C3937800545E7B /* MqttnioFramework.docc */,
 			);
 			path = MqttnioFramework;
-			sourceTree = "<group>";
-		};
-		DA9EADA429C3937800545E7B /* MqttnioFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				DA9EADA529C3937800545E7B /* MqttnioFrameworkTests.swift */,
-			);
-			path = MqttnioFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,24 +85,6 @@
 			productReference = DA9EAD9629C3937800545E7B /* MqttnioFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA9EAD9F29C3937800545E7B /* MqttnioFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA9EADAD29C3937800545E7B /* Build configuration list for PBXNativeTarget "MqttnioFrameworkTests" */;
-			buildPhases = (
-				DA9EAD9C29C3937800545E7B /* Sources */,
-				DA9EAD9D29C3937800545E7B /* Frameworks */,
-				DA9EAD9E29C3937800545E7B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA9EADA329C3937800545E7B /* PBXTargetDependency */,
-			);
-			name = MqttnioFrameworkTests;
-			productName = MqttnioFrameworkTests;
-			productReference = DA9EADA029C3937800545E7B /* MqttnioFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,9 +96,6 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					DA9EAD9529C3937800545E7B = {
-						CreatedOnToolsVersion = 14.1;
-					};
-					DA9EAD9F29C3937800545E7B = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -167,20 +114,12 @@
 			projectRoot = "";
 			targets = (
 				DA9EAD9529C3937800545E7B /* MqttnioFramework */,
-				DA9EAD9F29C3937800545E7B /* MqttnioFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DA9EAD9429C3937800545E7B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA9EAD9E29C3937800545E7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,23 +137,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA9EAD9C29C3937800545E7B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA9EADA629C3937800545E7B /* MqttnioFrameworkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DA9EADA329C3937800545E7B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA9EAD9529C3937800545E7B /* MqttnioFramework */;
-			targetProxy = DA9EADA229C3937800545E7B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DA9EADA829C3937800545E7B /* Debug */ = {
@@ -391,36 +314,6 @@
 			};
 			name = Release;
 		};
-		DA9EADAE29C3937800545E7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = veeru.MqttnioFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DA9EADAF29C3937800545E7B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = veeru.MqttnioFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,15 +331,6 @@
 			buildConfigurations = (
 				DA9EADAB29C3937800545E7B /* Debug */,
 				DA9EADAC29C3937800545E7B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA9EADAD29C3937800545E7B /* Build configuration list for PBXNativeTarget "MqttnioFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA9EADAE29C3937800545E7B /* Debug */,
-				DA9EADAF29C3937800545E7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
